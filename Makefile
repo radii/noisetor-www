@@ -1,7 +1,7 @@
-HTMLROOT := /var/www
+REPO := /var/git/www.git
 
 default:
-	echo "Run 'make install' to install to $(HTMLROOT)"
+	echo "Run 'make install' to push to $(REPO)"
 
 install:
-	git archive HEAD | sudo tar -C $(HTMLROOT) -xf -
+	sudo "cd $(REPO); git pull $$PWD"
