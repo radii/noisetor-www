@@ -4,4 +4,4 @@ default:
 	echo "Run 'make install' to push to $(REPO)"
 
 install:
-	sudo "cd $(REPO); git pull $$PWD"
+	sudo git push $(REPO)
