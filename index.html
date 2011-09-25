@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>tor.noisebridge.net</title>
 <link rel="stylesheet" type="text/css" href="js/jqplot/jquery.jqplot.min.css" />
 <style type="text/css">
@@ -15,15 +17,14 @@ h1 { border-bottom: 2px solid black; padding: 2px; }
 <h1>tor.noisebridge.net</h1>
 
 <div id="noisetorlogo">
-<img src="noisetor.png" width="350" height="300" border="0">
+<img src="noisetor.png" width="350" height="300" alt="Noisetor">
 </div>
 
-<p><a href=https://www.noisebridge.net/>Noisebridge</a> has joined forces with
-the <a href=https://www.torproject.org/>Tor Project</a> and the
-<a href=http://www.eff.org>EFF</a> to let people donate to a US
+<p><a href="https://www.noisebridge.net/">Noisebridge</a> has joined forces with
+the <a href="https://www.torproject.org/">Tor Project</a> and the
+<a href="https://www.eff.org/">EFF</a> to let people donate to a US
 non-profit organization and directly see their donations turn into Tor exit
-nodes.
-<p>
+nodes.</p>
 
 <h2>How does it work?</h2>
 <ol>
@@ -38,11 +39,11 @@ nodes.
 <input type="hidden" name="business" value="treasurer@noisebridge.net">
 <input type="hidden" name="lc" value="US">
 <input type="hidden" name="item_name" value="Noisebridge Tor Node Project">
-<input type="hidden" name="no_shipping" value="0"></input> 
+<input type="hidden" name="no_shipping" value="0">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="currency_code" value="USD">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-<input type="image" src="btn_donateCC_LG.gif" width="147" height="47" border="0" name="submit" alt="Donate using PayPal">
+<input type="image" src="btn_donateCC_LG.gif" width="147" height="47" name="submit" alt="Donate using PayPal">
 </form>
 </div>
 
@@ -71,14 +72,14 @@ nodes.
 <ul>
 <li><a href="https://www.noisebridge.net/wiki/Tor_FAQ">Noisetor FAQ</a></li>
 <li><a href="https://www.noisebridge.net/mailman/listinfo/tor">Noisebridge Tor mailing list</a></li>
-<li><a href="https://github.com/noisetor/">GitHub project <tt>noisetor</tt></a> which contains source for this website as well as machine config scripts</li>
-<li><a href="http://twitter.com/noisetor"><tt>noisetor</tt> Twitter stream</a></li>
+<li><a href="https://github.com/noisetor/">GitHub project <code>noisetor</code></a> which contains source for this website as well as machine config scripts</li>
+<li><a href="http://twitter.com/noisetor"><code>noisetor</code> Twitter stream</a></li>
 <li><a href="http://torstatus.blutmagie.de/">torstatus.blutmagie.de</a> gives information about the Tor network.</li>
 </ul>
+<!--[if lt IE 9]><script type="text/javascript" src="js/jqplot/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqplot/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="js/jqplot/plugins/jqplot.dateAxisRenderer.min.js"></script>
+<script type="text/javascript" src="js/donations.js"></script>
 </body>
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="js/jqplot/excanvas.min.js"></script><![endif]-->
-<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="js/jqplot/jquery.jqplot.min.js"></script>
-<script language="javascript" type="text/javascript" src="js/jqplot/plugins/jqplot.dateAxisRenderer.min.js"></script>
-<script language="javascript" type="text/javascript" src="js/donations.js"></script>
 </html>
