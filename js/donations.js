@@ -16,6 +16,7 @@ jQuery(document).ready(function($) {
       });
       points.push([data.end, total]);
       var plot = $.jqplot('donation-graph', [points], {
+        title: data.count + ' supporters have donated $' + Math.round(total) + ' this month!',
         axes: {
           xaxis: { renderer: $.jqplot.DateAxisRenderer, tickOptions: { formatString: '%Y-%m-%d' }, autoscale: true },
           yaxis: { tickOptions: { formatString: '$%d' }, autoscale: true }
